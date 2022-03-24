@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10px"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30px"
+        app:srcCompat="@drawable/logo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginBottom="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edMatheloai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã thể loại" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginBottom="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edTentheloai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên thể loại" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginBottom="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edMota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mô tả" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginBottom="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edVitri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vị trí" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnadd_hdct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:layout_weight="1"
+            android:text="Thêm" />
+
+        <Button
+            android:id="@+id/btncancel_hdct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:layout_weight="1"
+            android:text="Hủy" />
+    </LinearLayout>
+
+</LinearLayout>
